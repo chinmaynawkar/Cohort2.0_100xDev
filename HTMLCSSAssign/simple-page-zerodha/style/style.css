@@ -1,0 +1,14 @@
+.zerodha1{
+    padding-top: 45px;
+    padding-bottom: 25px;
+}
+.bt{
+background-color:#387ed1;
+width: 174px;
+height: 45px;
+color: white;
+font-family:Inter,serif;
+font-size: 20px;
+border-radius: 8px;
+border: none;
+}
