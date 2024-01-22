@@ -1,0 +1,43 @@
+/* Navbar.css */
+.navbar {
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    animation: fadeInUp 0.5s ease-out;
+  }
+  
+  button {
+    margin: 0 5px;
+    padding: 8px 12px;
+    color: #fff;
+    background-color: #555;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out, transform 0.3s ease-out;
+
+  }
+  
+  button:hover {
+    background-color: #777;
+  transform: scale(1.1); /* Zoom in effect on hover */
+
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      transform: translateX(-50%) translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
+  }
+  

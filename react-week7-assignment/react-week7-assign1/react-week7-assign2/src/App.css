@@ -1,0 +1,14 @@
+/* App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
