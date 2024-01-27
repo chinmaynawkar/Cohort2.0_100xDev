@@ -6,8 +6,7 @@ import countAtom from "./store/atoms/count";
 
 function App() {
   
-  // wrap anyone that wants to use the teleported value inside a provider
-  // recoil, redux, Themes in mUI
+  
   return (
     <div>
       <RecoilRoot>
