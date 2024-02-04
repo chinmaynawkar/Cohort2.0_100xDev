@@ -19,7 +19,7 @@ const prisma = new PrismaClient()
 //   console.log(res);
 // }
 
-// insertUser('cnawkar@gmail.com', 'password', 'Chinmay', 'Nawkar');
+// insertUser('cn@gmail.com', 'password', '', '');
 
 interface UpdateParams {
     firstName: string;
